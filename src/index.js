@@ -8,6 +8,7 @@ class BadRequestException extends Error {
 	}
 }
 
+
 class CloudflareApiException extends Error {
 	constructor(reason) {
 		super(reason);
